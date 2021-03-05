@@ -5,4 +5,4 @@ data = {
   'verbosity': 'high'
 }
 
-response = requests.post('http://JENKINS_URL/job/JOB_NAME/buildWithParameters', data=data, auth=('USER', 'TOKEN'))
+response = requests.post('http://localhost:8080/Job/Test/buildWithParameters', data=data, auth=('USER', 'TOKEN'))
