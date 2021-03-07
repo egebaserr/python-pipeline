@@ -5,4 +5,4 @@ data = {
   'verbosity': 'high'
 }
 
-response = requests.post('http://localhost:8080/Job/Test1/buildWithParameters', data=data, auth=('USER', 'TOKEN'))
+response = requests.post('http://localhost:8081/Job/t/buildWithParameters', data=data, auth=('USER', 'TOKEN'))
