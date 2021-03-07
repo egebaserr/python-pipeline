@@ -1,8 +1,3 @@
 import requests
 
-data = {
-  'id': '123',
-  'verbosity': 'high'
-}
-
-response = requests.post('http://localhost:8081/Job/t/buildWithParameters', data=data, auth=('USER', 'TOKEN'))
+response = requests.post('http://localhost:8081/job/Test/build', auth=('admin', '117e630918712cf7650b8647a5b8f33cff'))
